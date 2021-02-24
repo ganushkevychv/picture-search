@@ -1,17 +1,17 @@
 import React from 'react'
 import './App.css';
 import InputSearch from './InputSearch'
-import {AutoCompleteProvider} from './AutoCompleteContext'
+import { AppContextProvider } from './AppContext';
 
 function App() {
   return (
-    <AutoCompleteProvider>
+    <AppContextProvider>
     <div className="App">
       <header className="App-header">
         <InputSearch/>
       </header>
     </div>
-    </AutoCompleteProvider>
+    </AppContextProvider>
   );
 }
 
