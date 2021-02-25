@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css';
+import './PhotoSearchApp.css';
 import InputSearch from './InputSearch'
 import { AppContextProvider } from './AppContext';
 
