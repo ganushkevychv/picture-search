@@ -1,6 +1,6 @@
 import React from 'react'
 import './PhotoSearchApp.css';
-import InputSearch from './InputSearch'
+import InputSearch from './components/InputSearch'
 import { AppContextProvider } from './AppContext';
 
 function App() {
