@@ -1,8 +1,8 @@
 import React, {useContext} from 'react';
-import './PhotoSearchApp.css';
+import '../styles/PhotoSearchApp.css';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
-import {AutoCompleteContext} from './AutoCompleteContext';
+import {AutoCompleteContext} from '../AutoCompleteContext';
 
 
 const InputSearch = () => {
