@@ -1,17 +1,17 @@
 import React from 'react'
 import './PhotoSearchApp.css';
-import InputSearch from './components/InputSearch'
-import { AppContextProvider } from './AppContext';
+import SearchPage from './pages/SearchPage'
+import { PhotoSearchAppContextProvider } from './PhotoSearchAppContext';
 
 function App() {
   return (
-    <AppContextProvider>
+    <PhotoSearchAppContextProvider>
     <div className="App">
       <header className="App-header">
-        <InputSearch/>
+        <SearchPage/>
       </header>
     </div>
-    </AppContextProvider>
+    </PhotoSearchAppContextProvider>
   );
 }
 
