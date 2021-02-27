@@ -1,7 +1,7 @@
 import React, {useState, useEffect, createContext, useMemo} from 'react';
 import {getData} from './Api';
 
-const PhotoSearchAppContex = createContext({});
+const PhotoSearchAppContext = createContext({});
 
 const PhotoSearchAppContextProvider = props => {
     const [searchValue, setSearchValue] = useState("");
@@ -21,9 +21,9 @@ const PhotoSearchAppContextProvider = props => {
     },[searchValue]);
 
     return (
-        <PhotoSearchAppContex.Provider value={appStateData}>
+        <PhotoSearchAppContext.Provider value={appStateData}>
             {props.children}
-        </PhotoSearchAppContex.Provider>
+        </PhotoSearchAppContext.Provider>
         )
 }   
-export {PhotoSearchAppContex, PhotoSearchAppContextProvider}
+export {PhotoSearchAppContext, PhotoSearchAppContextProvider}

@@ -25,7 +25,7 @@ const Input = ({searchValueHandler}) => {
              onChange={onChangeHandler}
              onKeyPress={onKeyHandler}
       />
-      <button onSubmit={onSubmitHandler}>search</button>
+      <button onClick={onSubmitHandler}>search</button>
       </div>
   )
 };

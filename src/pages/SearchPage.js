@@ -3,7 +3,7 @@ import Input from '../components/Input'
 import {PhotoSearchAppContext} from "../PhotoSearchAppContext";
 
 
-const SearchPage = (props) => {
+const SearchPage = () => {
       
 const {setSearchValue} = useContext(PhotoSearchAppContext) ;
 
