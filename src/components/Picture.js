@@ -5,7 +5,9 @@ const Picture = () => {
 
 
 return(
-    <img />
+    <div className="containerPicture">
+    <img/>
+    </div>
 )
 
 }
